@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTT Platform</title>
+    <link rel="stylesheet" href="/build/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pridi:wght@200;300;400;500;600;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body class="text-white overflow-x-hidden bg-amber-400">
+
+    <div class="bg-gradient-to-br to-amber-100 from-amber-400 h-full">
+    <!-- side bar -->
+        <div class="fixed z-20 bg-transparent hover:from-amber-300 text-amber-700 pr-24 hover:bg-opacity-100 h-screen hover:bg-gradient-to-r top-0 left-0 flex flex-col pt-16 pb-20 lg:pl-12 md:pl-8 pl-6 font-roboto-mono font-semibold transition-all duration-1000">
+            <h1 class="cursor-pointer text-3xl text-amber-50 font-pridi pb-14">PastPlay</h1>
+            <a href="/user/watchlist" class="icon flex gap-4 cursor-pointer pb-14 hover:scale-110 transition-all duration-900">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FF6F00"><path d="M234-276q51-39 114-61.5T480-360q69 0 132 22.5T726-276q35-41 54.5-93T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 59 19.5 111t54.5 93Zm246-164q-59 0-99.5-40.5T340-580q0-59 40.5-99.5T480-720q59 0 99.5 40.5T620-580q0 59-40.5 99.5T480-440Zm0 360q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q53 0 100-15.5t86-44.5q-39-29-86-44.5T480-280q-53 0-100 15.5T294-220q39 29 86 44.5T480-160Zm0-360q26 0 43-17t17-43q0-26-17-43t-43-17q-26 0-43 17t-17 43q0 26 17 43t43 17Zm0-60Zm0 360Z"/></svg>
+                <p class="icon-desc transition-all translate-x-1 duration-1000 hidden ">My Space</p>    
+            </a>
+            <a href="/" class="icon flex gap-4 cursor-pointer pb-14 hover:scale-110 transition-all duration-900">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FF6F00"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>
+                <p class="icon-desc transition-all translate-x-1 duration-1000 hidden ">Home</p>
+            </a>
+            <div class="icon flex gap-4 cursor-pointer pb-14 hover:scale-110 transition-all duration-900">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FF6F00"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+                <p class="icon-desc transition-all translate-x-1 duration-1000 hidden ">Search</p>
+            </div>
+            <div class="icon flex gap-4 cursor-pointer  pb-14 hover:scale-110 transition-all duration-900">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FF6F00"><path d="M320-120v-80H160q-33 0-56.5-23.5T80-280v-480q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v480q0 33-23.5 56.5T800-200H640v80H320ZM160-280h640v-480H160v480Zm0 0v-480 480Z"/></svg>
+                <p class="icon-desc transition-all translate-x-1 duration-1000 hidden ">Shows</p>
+            </div>
+            <a href="movies.html" class="icon flex gap-4 cursor-pointer  pb-14 hover:scale-110 transition-all duration-900">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FF6F00"><path d="m160-800 80 160h120l-80-160h80l80 160h120l-80-160h80l80 160h120l-80-160h120q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800Zm0 240v320h640v-320H160Zm0 0v320-320Z"/></svg>
+                <p class="icon-desc transition-all translate-x-1 duration-1000 hidden ">Movies</p>
+            </a>
+            <div class="icon flex gap-4 cursor-pointer hover:scale-110 transition-all duration-900">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FF6F00"><path d="m260-520 220-360 220 360H260ZM700-80q-75 0-127.5-52.5T520-260q0-75 52.5-127.5T700-440q75 0 127.5 52.5T880-260q0 75-52.5 127.5T700-80Zm-580-20v-320h320v320H120Zm580-60q42 0 71-29t29-71q0-42-29-71t-71-29q-42 0-71 29t-29 71q0 42 29 71t71 29Zm-500-20h160v-160H200v160Zm202-420h156l-78-126-78 126Zm78 0ZM360-340Zm340 80Z"/></svg>
+                <p class="icon-desc transition-all translate-x-1 duration-1000 hidden ">Categories</p>
+            </div> 
+        </div>
+        
+        <!-- main thumbnail content -->
+        <div class="w-screen relative">
+            <div class="relative flex flex-col transition-all duration-1000">
+                <img id="thumbnail" class=" h-screen w-full object-cover" src="thumbnails/thumbnail1.jpg" alt="Movie Thumbnail">
+                <div id="movie-details" class="absolute cursor-pointer flex flex-col gap-6 top-24 left-44 p-4rounded-md max-w-[400px]">
+                    <h2 class="font-kanit font-extrabold text-wrap text-6xl">The Batman</h2>
+                    <p class="font-roboto-mono font-semibold text-lg">Year &dotsquare; Language</p>
+                    <p class="font-roboto-mono font-semibold text-lg">Imdb Rating</p>
+                    <p class="text-wrap font-pridi text-xl lg:inline hidden">When a sadistic serial killer begins murdering key political figures in Gotham, The Batman is forced to investigate the city's hidden corruption and question his family's involvement.</p>
+                    <p class="font-roboto-mono font-semibold text-lg">Genre</p>
+                </div>
+
+                <div class="absolute lg:top-[70%] top-[50%] left-44">
+                    <div class="flex max-w-[400px] gap-6">
+                        <div class="text-white cursor-pointer w-96 px-4 h-20 flex items-center justify-center transition-all duration-900 hover:scale-105 bg-gray-500 text-sm  bg-opacity-60 rounded-md font-roboto-slab font-semibold">
+                            <button class="text-center text-xl flex gap-2 items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z"/></svg>
+                                <p>Subscribe to Watch</p>
+                            </button>
+                        </div>
+            
+                        <button class="text-white px-3 py-2 bg-gray-500 bg-opacity-60 rounded-md flex justify-center items-center transition-all duration-900 text-sm cursor-pointer font-roboto-slab font-semibold hover:scale-105">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- cards -->
+        <div class="flex flex-col space-y-12 relative left-36 py-32">
+            
+            <!-- latest shows -->
+            <div class="flex flex-col gap-4 text-white">
+                <div class="flex justify-between w-5/6 lg:text-3xl md:text-2xl sm:text-xl text-lg font-pridi text-amber-600">
+                    <p>Latest Shows</p>
+                    <p class="flex gap-2 cursor-pointer items-center">
+                        View All 
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FF6F00"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
+                    </p>
+                </div>
+                <div class="flex gap-6 w-auto overflow-x-hidden py-5 px-4">
+                    <div class="cursor-pointer">
+                        <img class="h-80 transition-all duration-900  hover:scale-105 hover:shadow-amber-50 hover:shadow-[0px_0px_8px_5px] rounded-md" src="/posters/poster1.webp" alt="">
+                    </div>
+                    <div class="cursor-pointer">
+                        <img class="h-80 transition-all duration-900  hover:scale-105 hover:shadow-amber-50 hover:shadow-[0px_0px_8px_5px] rounded-md" src="/posters/poster1.webp" alt="">
+                    </div>
+                    <div class="cursor-pointer">
+                        <img class="h-80 transition-all duration-900  hover:scale-105 hover:shadow-amber-50 hover:shadow-[0px_0px_8px_5px] rounded-md" src="/posters/poster1.webp" alt="">
+                    </div>
+                    <div class="cursor-pointer">
+                        <img class="h-80 transition-all duration-900  hover:scale-105 hover:shadow-amber-50 hover:shadow-[0px_0px_8px_5px] rounded-md" src="/posters/poster1.webp" alt="">
+                    </div>
+                    <div class="cursor-pointer">
+                        <img class="h-80 transition-all duration-900  hover:scale-105 hover:shadow-amber-50 hover:shadow-[0px_0px_8px_5px] rounded-md" src="/posters/poster1.webp" alt="">
+                    </div>
+                    <div class="cursor-pointer">
+                        <img class="h-80 transition-all duration-900  hover:scale-105 hover:shadow-amber-50 hover:shadow-[0px_0px_8px_5px] rounded-md" src="/posters/poster1.webp" alt="">
+                    </div>
+                    <div class="cursor-pointer">
+                        <img class="h-80 transition-all duration-900  hover:scale-105 hover:shadow-amber-50 hover:shadow-[0px_0px_8px_5px] rounded-md" src="/posters/poster1.webp" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="w-5/6 h-[0.8px] bg-amber-600"></div>
+            
+            <!-- Popular shows -->
+            <div class="flex flex-col gap-4 lg:text-3xl md:text-2xl sm:text-xl text-lg font-pridi text-amber-600">
+                <div class="flex justify-between w-5/6">
+                    <p>Popular Shows</p>
+                    <p class="flex gap-2 cursor-pointer items-center">
+                        View All 
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FF6F00"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
+                    </p>
+                </div>
+                <div class="flex gap-6 overflow-x-hidden  py-5 px-3">
+                    <div class="cursor-pointer">
+                        <img class="h-80 transition-all duration-900  hover:scale-105 hover:shadow-amber-50 hover:shadow-[0px_0px_8px_5px] rounded-md" src="/posters/poster2.webp" alt="">
+                    </div>
+                    <div class="cursor-pointer">
+                        <img class="h-80 transition-all duration-900  hover:scale-105 hover:shadow-amber-50 hover:shadow-[0px_0px_8px_5px] rounded-md" src="/posters/poster2.webp" alt="">
+                    </div>
+                    <div class="cursor-pointer">
+                        <img class="h-80 transition-all duration-900  hover:scale-105 hover:shadow-amber-50 hover:shadow-[0px_0px_8px_5px] rounded-md" src="/posters/poster2.webp" alt="">
+                    </div>
+                    <div class="cursor-pointer">
+                        <img class="h-80 transition-all duration-900  hover:scale-105 hover:shadow-amber-50 hover:shadow-[0px_0px_8px_5px] rounded-md" src="/posters/poster2.webp" alt="">
+                    </div>
+                    <div class="cursor-pointer">
+                        <img class="h-80 transition-all duration-900  hover:scale-105 hover:shadow-amber-50 hover:shadow-[0px_0px_8px_5px] rounded-md" src="/posters/poster2.webp" alt="">
+                    </div>
+                    <div class="cursor-pointer">
+                        <img class="h-80 transition-all duration-900  hover:scale-105 hover:shadow-amber-50 hover:shadow-[0px_0px_8px_5px] rounded-md" src="/posters/poster2.webp" alt="">
+                    </div>
+                    <div class="cursor-pointer">
+                        <img class="h-80 transition-all duration-900  hover:scale-105 hover:shadow-amber-50 hover:shadow-[0px_0px_8px_5px] rounded-md" src="/posters/poster2.webp" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-5/6 h-[0.8px] bg-amber-600"></div>
+
+            <!-- Random -->
+            <div class="flex flex-col gap-4 lg:text-3xl md:text-2xl sm:text-xl text-lg font-pridi text-amber-600">
+                <div class="flex justify-between w-5/6">
+                    <p>Random</p>
+                    <p class="flex gap-2 cursor-pointer items-center">
+                        View All 
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FF6F00"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
+                    </p>
+                </div>
+                <div class="flex gap-6 overflow-x-hidden  py-5 px-3">
+                    <div class="cursor-pointer">
+                        <img class="h-80 transition-all duration-900  hover:scale-105 hover:shadow-amber-50 hover:shadow-[0px_0px_8px_5px] rounded-md" src="/posters/poster2.webp" alt="">
+                    </div>
+                    <div class="cursor-pointer">
+                        <img class="h-80 transition-all duration-900  hover:scale-105 hover:shadow-amber-50 hover:shadow-[0px_0px_8px_5px] rounded-md" src="/posters/poster2.webp" alt="">
+                    </div>
+                    <div class="cursor-pointer">
+                        <img class="h-80 transition-all duration-900  hover:scale-105 hover:shadow-amber-50 hover:shadow-[0px_0px_8px_5px] rounded-md" src="/posters/poster2.webp" alt="">
+                    </div>
+                    <div class="cursor-pointer">
+                        <img class="h-80 transition-all duration-900  hover:scale-105 hover:shadow-amber-50 hover:shadow-[0px_0px_8px_5px] rounded-md" src="/posters/poster2.webp" alt="">
+                    </div>
+                    <div class="cursor-pointer">
+                        <img class="h-80 transition-all duration-900  hover:scale-105 hover:shadow-amber-50 hover:shadow-[0px_0px_8px_5px] rounded-md" src="/posters/poster2.webp" alt="">
+                    </div>
+                    <div class="cursor-pointer">
+                        <img class="h-80 transition-all duration-900  hover:scale-105 hover:shadow-amber-50 hover:shadow-[0px_0px_8px_5px] rounded-md" src="/posters/poster2.webp" alt="">
+                    </div>
+                    <div class="cursor-pointer">
+                        <img class="h-80 transition-all duration-900  hover:scale-105 hover:shadow-amber-50 hover:shadow-[0px_0px_8px_5px] rounded-md" src="/posters/poster2.webp" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-5/6 h-[0.8px] bg-amber-600"></div>
+        
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="bg-amber-400 flex flex-row relative w-full justify-evenly py-28">
+        <div class="flex flex-col gap-6">
+            <h2 class="text-xl font-roboto-mono font-semibold">Company</h2>
+            <div class="font-kanit text-white opacity-70">
+                <p>About Us</p>
+                <p>Carrers</p>
+            </div>
+        </div>
+        <div class="flex flex-col gap-6">
+            <h2 class="text-xl font-roboto-mono font-semibold">View Website in</h2>
+            <div class="font-kanit text-white opacity-70 flex">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg>
+                <p>English</p>
+            </div>
+        </div>
+        <div class="flex flex-col gap-6">
+            <h2 class="text-xl font-roboto-mono font-semibold">Need Help?</h2>
+            <div class="font-kanit text-white opacity-70">
+                <p>Visit Help Center</p>
+                <p>Share Feedback</p>
+            </div>
+        </div>
+        <div class="flex flex-col gap-6">
+            <h2 class="text-xl font-roboto-mono font-semibold">Connect with Us</h2>
+            <div class="font-kanit flex flex-col gap-2 justify-center items-center">
+                <a href="">facebook</a>
+                <a href="">Twitter</a>
+                <a href="">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- all shows and movies -->
+   <script src="/build/script.js"></script>
+</body>
+</html>

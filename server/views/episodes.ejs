@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/build/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pridi:wght@200;300;400;500;600;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="text-white overflow-x-hidden relative bg-neutral-900">
+    <div class="bg-neutral-900 relative">
+
+        <!-- side bar -->
+        <div
+            class="fixed z-20 bg-gradient-to-r from-black hover:from-black text-amber-700 pr-24 hover:bg-opacity-100 h-screen hover:bg-gradient-to-r top-0 left-0 flex flex-col pt-16 pb-20 lg:pl-12 md:pl-8 pl-6 font-roboto-mono font-semibold transition-all duration-1000">
+            <h1 class="cursor-pointer text-3xl text-amber-50 font-pridi pb-14">OTT</h1>
+            <a href="mySpace.html"
+                class="icon flex gap-4 cursor-pointer pb-14 hover:scale-110 transition-all duration-900">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#FF6F00">
+                    <path
+                        d="M234-276q51-39 114-61.5T480-360q69 0 132 22.5T726-276q35-41 54.5-93T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 59 19.5 111t54.5 93Zm246-164q-59 0-99.5-40.5T340-580q0-59 40.5-99.5T480-720q59 0 99.5 40.5T620-580q0 59-40.5 99.5T480-440Zm0 360q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q53 0 100-15.5t86-44.5q-39-29-86-44.5T480-280q-53 0-100 15.5T294-220q39 29 86 44.5T480-160Zm0-360q26 0 43-17t17-43q0-26-17-43t-43-17q-26 0-43 17t-17 43q0 26 17 43t43 17Zm0-60Zm0 360Z" />
+                </svg>
+                <p class="icon-desc transition-all translate-x-1 duration-1000 hidden ">My Space</p>
+            </a>
+            <a href="index.html"
+                class="icon flex gap-4 cursor-pointer pb-14 hover:scale-110 transition-all duration-900">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#FF6F00">
+                    <path
+                        d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z" />
+                </svg>
+                <p class="icon-desc transition-all translate-x-1 duration-1000 hidden ">Home</p>
+            </a>
+            <div class="icon flex gap-4 cursor-pointer pb-14 hover:scale-110 transition-all duration-900">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#FF6F00">
+                    <path
+                        d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
+                </svg>
+                <p class="icon-desc transition-all translate-x-1 duration-1000 hidden ">Search</p>
+            </div>
+            <a href="Episodes.html"
+                class="icon flex gap-4 cursor-pointer  pb-14 hover:scale-110 transition-all duration-900">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#FF6F00">
+                    <path
+                        d="M320-120v-80H160q-33 0-56.5-23.5T80-280v-480q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v480q0 33-23.5 56.5T800-200H640v80H320ZM160-280h640v-480H160v480Zm0 0v-480 480Z" />
+                </svg>
+                <p class="icon-desc transition-all translate-x-1 duration-1000 hidden ">Shows</p>
+            </a>
+            <a href="movies.html"
+                class="icon flex gap-4 cursor-pointer  pb-14 hover:scale-110 transition-all duration-900">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#FF6F00">
+                    <path
+                        d="m160-800 80 160h120l-80-160h80l80 160h120l-80-160h80l80 160h120l-80-160h120q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800Zm0 240v320h640v-320H160Zm0 0v320-320Z" />
+                </svg>
+                <p class="icon-desc transition-all translate-x-1 duration-1000 hidden ">Movies</p>
+            </a>
+            <div class="icon flex gap-4 cursor-pointer hover:scale-110 transition-all duration-900">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#FF6F00">
+                    <path
+                        d="m260-520 220-360 220 360H260ZM700-80q-75 0-127.5-52.5T520-260q0-75 52.5-127.5T700-440q75 0 127.5 52.5T880-260q0 75-52.5 127.5T700-80Zm-580-20v-320h320v320H120Zm580-60q42 0 71-29t29-71q0-42-29-71t-71-29q-42 0-71 29t-29 71q0 42 29 71t71 29Zm-500-20h160v-160H200v160Zm202-420h156l-78-126-78 126Zm78 0ZM360-340Zm340 80Z" />
+                </svg>
+                <p class="icon-desc transition-all translate-x-1 duration-1000 hidden ">Categories</p>
+            </div>
+        </div>
+        
+        <div class="w-auto">
+            <div class="relative flex flex-col transition-all duration-1000">
+                <img class="jmargin" src="./thumbnails/<%=names%>_Thumbnail.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="mt-10 bg-neutral-900 flex flex-col lg:mx-36">
+            <div>
+                <h2>Episodes</h2>
+            </div>
+            <div class="w-full h-[0.8px] mt-5 bg-white"></div>
+
+            <div class=" mt-10 flex gap-6 overflow-x-scroll">
+                <h3>Season1</h3>
+            </div>
+
+            <!-- card -->
+            <div id="cards" class="flex flex-col mt-10 space-y-6">
+                <% files.forEach((file, index) => { %>
+                    <div id="card-<%= index %>" class="relative flex gap-8 cursor-pointer transition-all duration-500 rounded-xl justify-evenly">
+                        <div class="main-video cursor-pointer w-full h-32 overflow-hidden bg-black" onclick="playFullscreen('mainVideo-<%= index %>')">
+                            <video id="mainVideo-<%= index %>" class="w-174 h-full object-cover" controls>
+                                <source id="mainVideoSource-<%= index %>" src="/video/<%= file.filename %>?name=<%= names %>" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="flex flex-col">
+                            <h2>Title</h2>
+                            <h3>S1 E<%= index + 1 %> &bull; 43m</h3>
+                            <p class="text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, accusamus sint velit dignissimos nulla totam dolor dicta mollitia amet culpa earum error nobis similique nostrum! Perspiciatis, ducimus asperiores enim mollitia quam itaque perferendis dolorem inventore deleniti ex magni in nam. ipsum dolor, sit amet consectetur adipisicing elit. Assumenda illo nulla magnam dolores fugit, soluta voluptates expedita laborum dolor commodi rerum minima ad vel esse eligendi cumque deleniti similique voluptatibus!</p>
+                        </div>
+                    </div>
+                <% }) %>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function playFullscreen(videoId) {
+            var videoElement = document.getElementById(videoId);
+            if (videoElement.requestFullscreen) {
+                videoElement.requestFullscreen();
+            } else if (videoElement.mozRequestFullScreen) { 
+                videoElement.mozRequestFullScreen();
+            } else if (videoElement.webkitRequestFullscreen) { 
+                videoElement.webkitRequestFullscreen();
+            } else if (videoElement.msRequestFullscreen) { 
+                videoElement.msRequestFullscreen();
+            }
+            videoElement.play();
+        }
+    </script>
+    
+        
+    <script src="/modifyscript.js"></script>
+</body>
+
+</html>
